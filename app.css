@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.qr-code-container {
+    padding: 15px;
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.input-container {
+    padding: 15px;
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.input-container .input {
+    border: 1px dashed black;
+    background-color: white;
+    width: 100%;
+    border-radius: 15px;
+    padding: 15px 20px;
+    
+}
+
+.input-container .input  {
+    display: flex;
+}
+
+.input-container .input input {
+    border: 0px;
+    width: 100%;
+}
+
+.input-container .input input:focus, 
+.input-container .input input:focus-visible {
+    border: 0px;
+    outline: 0px;
+}
+
+
+
+.qr-code {
+    padding: 40px;
+    border: 1px dashed black;
+    background-color: white;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.qr-code img {
+    width: 100%;
+}
+
+.app-container {
+    max-width: 450px;
+}
+
+.download {
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    border: 0px;
+    border-radius: 7px;
+    padding: 10px 15px;
+    font-weight: bold;
+    margin-top: 15px
+}
